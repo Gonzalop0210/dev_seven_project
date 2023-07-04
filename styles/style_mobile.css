@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Fonts */
+    --font_montserrat: 'Montserrat', sans-serif;
+    --font_poppins: 'Poppins', sans-serif;
+    --font_heebo: 'Heebo', sans-serif;
+    /* Colors */
+    --color_gray_title: #333333;
+    --color_sky_blue: #2D9CDB;
+    --color_gray_paragraph: #4F4F4F;
+    --color_gray_three: #828282;
+    --color_gray_four: #BDBDBD;
+    --color_gray_six: #F2F2F2;
+    --color_green: #27AE60;
+    --color_red: #EB5757;
+    --color_white: #FFFFFF;
+}
