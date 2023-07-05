@@ -19,11 +19,14 @@
     --color_green: #27AE60;
     --color_red: #EB5757;
     --color_white: #FFFFFF;
+    --color_gray_five: #E0E0E0;
 }
 
 body {
     padding: 20px 10px 10px 10px;
     color: var(--color_gray_title);
+    background-color: var(--color_gray_six);
+
 }
 
 /* Header */
@@ -77,4 +80,169 @@ body {
 /* Ocultar el nav */
 .close_nav {
     display: none;
+}
+
+/* Main */
+/* Estilos de la primera parte del Main */
+.container_img_text {
+    display: grid;
+    grid-template-columns: 30px auto auto 80px;
+    grid-template-rows: auto auto auto;
+    row-gap: 15px;
+    margin-top: 30px;
+}
+
+.title_beautiful_question {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    font-family: var(--font_poppins);
+}
+
+.question_sky_blue {
+    color: var(--color_sky_blue);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.title_beautiful {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.img_document {
+    width: 100%;
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    border-radius: 10px;
+}
+
+.container_title_paragraph_input {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    font-family: var(--font_poppins);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title_story {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.paragraph_story {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.text_input {
+    color: var(--color_gray_three);
+    font-size: 10px;
+}
+
+.form_input {
+    display: inline-flex;
+    background-color: var(--color_gray_six);
+    border-radius: 10px;
+    padding: 3px 5px;
+}
+
+.input_email {
+    background-color: var(--color_gray_six);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--color_gray_six);
+}
+
+.input_email::placeholder {
+    color: var(--color_gray_four);
+}
+
+.input_button {
+    background-color: var(--color_sky_blue);
+    color: var(--color_gray_six);
+    border: 1px solid var(--color_sky_blue);
+    padding: 0 15px;
+    border-radius: 10px;
+}
+/* Estilos primera Parte Main Finalizado */
+/* Estilos segunda parte Main */
+.container_services_title {
+    margin-top: 50px;
+    font-family: var(--font_poppins);
+}
+
+.title_services_container {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    padding-left: 38px;
+}
+
+.container_services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.services_personality {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+    padding: 100px 38px 70px 38px;
+    border-radius: 20px;
+}
+
+.services_personality:nth-child(2) {
+    background-color: var(--color_white);
+    box-shadow: 2px 1px 14px 2px rgba(0,0,0,0.14);
+}
+
+.icon_signos {
+    display: inline-flex;
+    gap: 5px;
+}
+
+.icon_services {
+    background-color: #27AE60;
+    color: var(--color_gray_six);
+    padding: 17px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.icon_pencil {
+    background-color: var(--color_sky_blue);
+}
+
+.icon_server {
+    background-color: var(--color_red);
+}
+
+.title_services {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.paragraph_services {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.boton_services {
+    background-color: var(--color_gray_five);
+    color: var(--color_gray_three);
+    border: 1px solid var(--color_gray_five);
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.boton_serices_hover {
+    background-color: var(--color_sky_blue);
+    color: var(--color_gray_six);
+    border: 1px solid var(--color_sky_blue);
 }
