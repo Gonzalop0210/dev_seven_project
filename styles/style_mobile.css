@@ -245,3 +245,25 @@ body {
     color: var(--color_gray_six);
     border: 1px solid var(--color_sky_blue);
 }
+/* Parte 2 terminado */
+/* Iniciando tercera parte */
+.container_img_four {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: var(--font_poppins);
+}
+
+.name_job_img {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.name_img {
+    font-weight: 500;
+}
+
+.img_business {
+    width: 100%;
+    border-radius: 15px;
+}
