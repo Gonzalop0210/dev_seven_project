@@ -23,7 +23,7 @@
 }
 
 body {
-    padding: 20px 10px 10px 10px;
+    padding: 20px 0px 0px 0px;
     color: var(--color_gray_title);
     background-color: var(--color_gray_six);
 }
@@ -33,6 +33,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 10px;
 }
 
 .title {
@@ -82,6 +83,9 @@ body {
 }
 
 /* Main */
+.main {
+    padding: 0 10px;
+}
 /* Estilos de la primera parte del Main */
 .container_img_text {
     display: grid;
@@ -385,3 +389,77 @@ body {
     color: var(--color_gray_three);
 }
 /* Finaliznado estilos de la quinta parte del main */
+/* Empezando estilos del footer */
+.footer {
+    background-color: #100E1D;
+    color: var(--color_gray_six);
+    margin-top: 50px;
+    padding: 50px 40px 10px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list_footer, .list_social_footer {
+    list-style-type: none;
+}
+
+.list_footer {
+    font-family: var(--font_poppins);
+    font-weight: 400;
+}
+
+.name_footer {
+    font-family: var(--font_heebo);
+    font-weight: 800;
+}
+
+.list_social_footer {
+    display: flex;
+    gap: 10px;
+}
+
+.text_input_footer {
+    font-family: var(--font_poppins);
+    font-weight: 500;
+    color: var(--color_gray_three);
+    font-size: 14px;
+}
+
+.container_input_boton_footer {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    background-color: var(--color_gray_six);
+    border-radius: 10px;
+    padding: 0 2px 0 15px;
+}
+
+.input_email_footer {
+    height: 100%;
+    width: 80%;
+    border: none;
+    outline: none;
+}
+
+.input_button_footer{
+    height: 90%;
+    width: 20%;
+    background-color: var(--color_sky_blue);
+    color: var(--color_gray_six);
+    border: 1px solid var(--color_sky_blue);
+    border-radius: 10px;
+}
+
+.div_container_footer:nth-child(4) {
+    text-align: center;
+    font-family: var(--font_montserrat);
+    font-weight: lighter;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+/* Terminando los estilos del footer */
