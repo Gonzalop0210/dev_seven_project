@@ -354,9 +354,34 @@ body {
 .profile_part_five {
     display: flex;
     align-items: center;
+    gap: 20px;
+    margin-top: 15px;
 }
 
 .profile_part_five_img {
     width: 100%;
+    border-radius: 20px;
+}
+
+.container_img_profile_five {
+    flex-basis: 20%;
+}
+
+.name_job_profile {
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name_profile_five {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.job_profile_five {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--color_gray_three);
 }
 /* Finaliznado estilos de la quinta parte del main */
