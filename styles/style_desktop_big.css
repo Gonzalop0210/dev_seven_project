@@ -1,0 +1,54 @@
+@media(min-width: 1080px) {
+    .header, .main {
+        padding: 0 5%;
+    }
+
+    .title_beautiful_question {
+        width: 28%;
+    }
+
+    .paragraph_story {
+        font-size: 16px;
+    }
+
+    .container_title_paragraph_input {
+        width: 20%;
+    }
+
+    .container_services_title, 
+    .container_part_three, 
+    .container_part_four, 
+    .container_part_five {
+        margin: 0 10%;
+    }
+
+    .title_services_container {
+        font-size: 32px;
+        width: 32%;
+    }
+
+    .container_part_four {
+        margin-top: 100px;
+    }
+
+    .container_part_four {
+        justify-content: space-between;
+    }
+
+    .container_children_part_four:first-child {
+        flex-basis: 250px;
+    }
+
+    .paragraph_part_four {
+        width: 100%;
+    }
+
+    .container_part_five {
+        width: 60%;
+        margin-top: 100px;
+    }
+
+    .comment_part_five {
+        font-size: 32px;
+    }
+}

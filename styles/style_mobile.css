@@ -180,6 +180,7 @@ body {
     font-weight: 500;
     font-size: 24px;
     padding-left: 38px;
+    font-family: var(--font_poppins);
 }
 
 .container_services {
@@ -397,7 +398,7 @@ body {
     padding: 50px 40px 10px 40px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 50px;
 }
 
 .list_footer, .list_social_footer {
@@ -407,23 +408,29 @@ body {
 .list_footer {
     font-family: var(--font_poppins);
     font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .name_footer {
     font-family: var(--font_heebo);
     font-weight: 800;
+    font-size: 30px;
 }
 
 .list_social_footer {
     display: flex;
-    gap: 10px;
+    gap: 8px;
 }
 
 .text_input_footer {
     font-family: var(--font_poppins);
     font-weight: 500;
     color: var(--color_gray_three);
-    font-size: 14px;
+    font-size: 12px;
+    margin-bottom: 5px;
 }
 
 .container_input_boton_footer {
@@ -440,6 +447,7 @@ body {
     width: 80%;
     border: none;
     outline: none;
+    background-color: var(--color_gray_six);
 }
 
 .input_button_footer{
@@ -456,7 +464,7 @@ body {
     font-family: var(--font_montserrat);
     font-weight: lighter;
     font-size: 12px;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .underline {

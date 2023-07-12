@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Fonts */
+    --font_montserrat: 'Montserrat', sans-serif;
+    --font_poppins: 'Poppins', sans-serif;
+    --font_heebo: 'Heebo', sans-serif;
+    /* Colors */
+    --color_gray_title: #333333;
+    --color_sky_blue: #2D9CDB;
+    --color_gray_paragraph: #4F4F4F;
+    --color_gray_three: #828282;
+    --color_gray_four: #BDBDBD;
+    --color_gray_six: #F2F2F2;
+    --color_green: #27AE60;
+    --color_red: #EB5757;
+    --color_white: #FFFFFF;
+    --color_gray_five: #E0E0E0;
+}
+
+@media (min-width: 600px) {
+    .close_nav {
+        display: block;
+    }
+
+    .icon_bars, .icon_close {
+        display: none;
+    }
+
+    .list_nav {
+        display: inline-flex;
+        flex-direction: row;
+        gap: 20px;
+        position: relative;
+        width: auto;
+        height: auto;
+        color: #000;
+        background: none;
+        font-size: 16px;
+    }
+
+    .title_beautiful_question, .container_title_paragraph_input {
+        margin-left: 15%;
+    }
+
+    .title_beautiful_question {
+        width: 45%;
+    }
+
+    .container_title_paragraph_input {
+        width: 30%;
+    }
+
+    .title_beautiful, .title_story {
+        font-size: 32px;
+    }
+
+    .title_services_container {
+        width: 32%;
+        margin-top: 150px;
+    }
+
+    .container_services {
+        flex-direction: row;
+    }
+
+    .container_img_four {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+    }
+
+    .container_img_personality:nth-child(1), .container_img_personality:nth-child(3) {
+        margin-top: 90px;
+    }
+
+    .container_more_link {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+        justify-self: end;
+    }
+
+    .container_part_four {
+        flex-direction: row;
+        align-items: center;
+        margin-top: 150px;
+    }
+
+    .container_part_five {
+        width: 80%;
+    }
+
+    .profile_part_five {
+        width: 60%;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .div_container_footer:nth-child(1), .div_container_footer:nth-child(2), .div_container_footer:nth-child(3) {
+        justify-self: center;
+    }
+
+    .div_container_copiryth {
+        grid-row: 2 / 3;
+        grid-column: 1 / 4;
+    }
+}
